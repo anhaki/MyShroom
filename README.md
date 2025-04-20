@@ -34,7 +34,7 @@ MyShroom mampu mengenali **10 jenis spesies jamur**, di antaranya:
 ## 🖼️ Preview Aplikasi
 
 Berikut adalah tampilan dari halaman-halaman utama di aplikasi MyShroom:  
-![Preview Image](https://github.com/user-attachments/assets/73272262-3c32-41d8-a5f9-047dba95b16f)
+![Preview Image](https://github.com/user-attachments/assets/1f8ff427-1da3-4dc4-9598-5eb61cf85be6)
 
 ---
 
