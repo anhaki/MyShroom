@@ -1,0 +1,116 @@
+[versions]
+accompanistPager = "0.32.0"
+accompanistPagerIndicators = "0.28.0"
+agp = "8.4.0"
+bom = "2023.08.00"
+composedatepicker = "2.2.0"
+converterGson = "2.9.0"
+coreSplashscreen = "1.0.1"
+datastorePreferences = "1.1.1"
+datepicker = "2.0.7"
+desugar_jdk_libs = "2.0.4"
+hiltAndroid = "2.51"
+hiltNavigationCompose = "1.2.0"
+kotlin = "2.0.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+ktorClientCio = "2.3.4"
+ktorClientCioVersion = "2.3.5"
+ktorClientOkhttp = "3.0.2"
+lifecycleRuntimeKtx = "2.8.3"
+activityCompose = "1.9.0"
+composeBom = "2023.08.00"
+googleGmsGoogleServices = "4.4.2"
+firebaseDatabase = "21.0.0"
+firebaseAuth = "23.0.0"
+navigationCompose = "2.8.5"
+roomKtx = "2.6.1"
+runtimeLivedata = "1.6.8"
+glide = "4.16.0"
+firebaseFirestore = "25.0.0"
+datastoreCoreAndroid = "1.1.1"
+tensorflowLite = "2.10.0"
+tensorflowLiteGpu = "2.9.0"
+tensorflowLiteGpuDelegatePlugin = "0.4.0"
+tensorflowLiteSupport = "0.4.3"
+tensorflowLiteTaskPlugin = "0.4.0"
+wheelpickercompose = "Release"
+material = "1.12.0"
+roomCommon = "2.6.1"
+supabase = "2.4.1"
+wheelpickercomposeVersion = "1.1.11"
+runtimeLivedataVersion = "1.7.5"
+material3 = "1.2.0-rc01"
+litertSupportApi = "1.0.1"
+
+[libraries]
+accompanist-pager = { module = "com.google.accompanist:accompanist-pager", version.ref = "accompanistPager" }
+accompanist-pager-indicators = { module = "com.google.accompanist:accompanist-pager-indicators", version.ref = "accompanistPagerIndicators" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-core-splashscreen = { module = "androidx.core:core-splashscreen", version.ref = "coreSplashscreen" }
+androidx-datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastorePreferences" }
+androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomKtx" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomKtx" }
+#bom = { module = "io.github.jan-tennert.supabase:bom", version.ref = "bom" }
+commandiron-wheelpickercompose = { module = "com.github.commandiron:WheelPickerCompose", version.ref = "wheelpickercomposeVersion" }
+composedatepicker = { module = "com.github.vsnappy1:ComposeDatePicker", version.ref = "composedatepicker" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
+datepicker = { module = "com.github.ozcanalasalvar.picker:datepicker", version.ref = "datepicker" }
+desugar_jdk_libs = { module = "com.android.tools:desugar_jdk_libs", version.ref = "desugar_jdk_libs" }
+gotrue-kt = { module = "io.github.jan-tennert.supabase:gotrue-kt", version.ref = "supabase" }
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
+hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hiltAndroid" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3", version.ref = "material3"}
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
+androidx-runtime-livedata = { group = "androidx.compose.runtime", name = "runtime-livedata", version.ref = "runtimeLivedata" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
+androidx-datastore-core-android = { group = "androidx.datastore", name = "datastore-core-android", version.ref = "datastoreCoreAndroid" }
+ktor-client-cio = { module = "io.ktor:ktor-client-android", version.ref = "ktorClientCio" }
+ktor-client-okhttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "ktorClientOkhttp" }
+ktor-ktor-client-cio = { module = "io.ktor:ktor-client-cio", version.ref = "ktorClientCioVersion" }
+postgrest-kt = { module = "io.github.jan-tennert.supabase:postgrest-kt", version.ref = "supabase" }
+realtime-kt = { module = "io.github.jan-tennert.supabase:realtime-kt", version.ref = "supabase" }
+storage-kt = { module = "io.github.jan-tennert.supabase:storage-kt", version.ref = "supabase" }
+tensorflow-lite = { module = "org.tensorflow:tensorflow-lite", version.ref = "tensorflowLite" }
+tensorflow-lite-gpu = { module = "org.tensorflow:tensorflow-lite-gpu", version.ref = "tensorflowLiteGpu" }
+tensorflow-lite-gpu-delegate-plugin = { module = "org.tensorflow:tensorflow-lite-gpu-delegate-plugin", version.ref = "tensorflowLiteGpuDelegatePlugin" }
+tensorflow-lite-support = { module = "org.tensorflow:tensorflow-lite-support", version.ref = "tensorflowLiteSupport" }
+tensorflow-lite-task-plugin = { module = "org.tensorflow:tensorflow-lite-task-plugin", version.ref = "tensorflowLiteTaskPlugin" }
+wheelpickercompose = { module = "com.github.gargVader:WheelPickerCompose", version.ref = "wheelpickercompose" }
+wheelview = { module = "com.github.ozcanalasalvar.picker:wheelview", version.ref = "datepicker" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-room-common = { group = "androidx.room", name = "room-common", version.ref = "roomCommon" }
+hilt = { group = 'com.google.dagger', name = 'hilt-android', version = '2.51.1'}
+androidx-hilt = { group = 'androidx.hilt', name = 'hilt-navigation-compose', version = '1.2.0'}
+hilt-android-compiler = { group = 'com.google.dagger', name = 'hilt-compiler', version = '2.51.1' }
+runtime-livedata = { group = "androidx.compose.runtime", name = "runtime-livedata", version.ref = "runtimeLivedataVersion" }
+litert-support-api = { group = "com.google.ai.edge.litert", name = "litert-support-api", version.ref = "litertSupportApi" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
+kotlin-kapt = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version = "2.0.0-1.0.23" }
+dagger-hilt = { id = "com.google.dagger.hilt.android", version.ref = "hiltAndroid" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
