@@ -3,8 +3,6 @@ package com.haki.myshroom.di
 import android.content.Context
 import androidx.room.Room
 import com.haki.myshroom.BuildConfig
-import com.haki.myshroom.database.AlarmDao
-import com.haki.myshroom.database.AlarmDatabase
 import com.haki.myshroom.preferences.UserPreference
 import com.haki.myshroom.preferences.dataStore
 import dagger.Module
@@ -35,16 +33,6 @@ object DatabaseModule {
             install(Realtime)
         }
     }
-
-    @Provides
-    @Singleton
-    fun provideRoomDatabase(@ApplicationContext context: Context): AlarmDatabase {
-        return Room.databaseBuilder(context, AlarmDatabase::class.java, "alarm_database")
-            .fallbackToDestructiveMigration().build()
-    }
-
-    @Provides
-    fun provideAstronomyDao(database: AlarmDatabase): AlarmDao = database.alarmDao()
 
     @Provides
     @Singleton

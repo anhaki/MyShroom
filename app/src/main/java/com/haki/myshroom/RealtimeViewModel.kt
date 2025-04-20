@@ -13,8 +13,6 @@ import javax.inject.Inject
 class RealtimeViewModel @Inject constructor(
     private val authRepository: AuthRepository
 ) : ViewModel() {
-    val authState = authRepository.authState.asLiveData()
-
     fun realtimeDb(scope: CoroutineScope) {
         viewModelScope.launch {
             authRepository.realtimeDb(scope)
